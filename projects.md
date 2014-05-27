@@ -6,12 +6,11 @@ title: Projects
 
 # Research Projects
 
-## [OpenTuner]
-[OpenTuner] is an extensible framework for building domain-specific
-multi-objective program autotuners. OpenTuner supports fully customizable
-configuration representations, an extensible technique representation to
-allow for domain-specific techniques, and an easy to use interface for
-communicating with the tuned program.
+## [Image Retrieval]
+
+<div class="first">
+<img src="/images/2014-05-27 09_04_13-Image search.png">
+</div>
 
 
 ## [PetaBricks]
