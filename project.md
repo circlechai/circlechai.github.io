@@ -21,8 +21,10 @@ spend most of my time trying new types.
 
 ## Cooking
 
-<div class="first">
-<img src="/images/2014-05-27 09_04_13-Image search.png">
+<div class="third">
+<img src="/images/food3.jpg">
+<img src="/images/food1.jpg">
+<img src="/images/food2.jpg">
 </div>
 
 I love extremely spicy food and cooking. I taught myself cooking by trying
