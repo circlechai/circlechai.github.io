@@ -4,62 +4,15 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-# Research Projects
-
 ## [Image Retrieval]
 
 <div class="first">
 <img src="/images/2014-05-27 09_04_13-Image search.png">
 </div>
 
-
-## [PetaBricks]
-[PetaBricks] is a language and compiler where algorithmic choices are
-exposed explicitly to create programs that define a search space of possible
-algorithms.  The PetaBricks compiler then uses empirical autotuning to search
-over these algorithms for an optimal version.
+[Image Retrieval]， this is a web image retrieval application mainly based on bag of word model. The dataset is ukbench and extracting sift as images representation. The image on above querying a image with some books. The first top position is the query image, following by the query result. 
 
 
-## [Kendo]
-[Kendo] is a library that allows multithreaded programs, that would
-normally produce nondeterministic output, to execute deterministically by
-enforcing a dynamically computed and efficient ordering of lock acquisitions.
-
-
-## [DMTCP]
-
-[DMTCP][DMTCP] (Distributed MultiThreaded Checkpointing) is a tool to transparently
-checkpoint and restart the state of a distributed cluster computation that
-communicates through MPI or sockets.  It works on unmodified binaries at
-the user level.
-
-
-# Side Projects
-
-## [LendingClubChecker]
-
-[LendingClubChecker] is a python script to perform automated trading on the
-peer to peer lending site Lending Club.
-
-{% comment %}
-## [ShowDB]
-
-[ShowDB] is a script to index and automatically download TV shows with
-Bit Torrent.
-{% endcomment %}
-
-# Open Source Contributions
-
-While at Google I added support for sandboxing self-modifying code to Native
-Client (part of Google Chrome).  I have also submitted bug fixes and minor
-enhancements to a number of other open source projects.
-
-
-[ShowDB]: https://github.com/jansel/showdb
-[LendingClubChecker]: https://github.com/jansel/lendingclubchecker
-[OpenTuner]: http://opentuner.org/
-[PetaBricks]: http://projects.csail.mit.edu/petabricks/
-[Kendo]: http://projects.csail.mit.edu/kendo/
-[DMTCP]: http://dmtcp.sourceforge.net/
+[Image Retrieval]: https://github.com/willard-yuan/
 
 
