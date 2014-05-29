@@ -13,6 +13,6 @@ title: Projects
 [Image Retrieval]， this is a web image retrieval application mainly based on bag of word model. The dataset is ukbench and extracting sift as images representation. The image on above querying a image with some books. The first top position is the query image, following by the query result. 
 
 
-[Image Retrieval]: https://github.com/willard-yuan/
+[Image Retrieval]: https://github.com/willard-yuan/gosearch
 
 
