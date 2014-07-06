@@ -262,7 +262,7 @@ html{background-color:#ffffff;font-family: Galdeano,"Hiragino Sans GB","Microsof
 #main article{margin:0 auto;
 width:100%;
 display:inline;
-#float:left;
+/*float:left;*/
 margin: 0px auto;
 width:83.33333333333334%;
 margin-left:8.333333333333334%;
