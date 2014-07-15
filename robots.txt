@@ -1,2 +1,1 @@
-Sitemap: http://yuanyong.org/sitemap.xml
-Disallow: /vitae.md 
+User-agent: *

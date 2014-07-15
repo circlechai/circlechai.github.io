@@ -1,73 +1,16 @@
-title: Yong Yuan's Homepage
-tagline:          Yong Yuan
-description:      This is Yong Yuan's homgpage.
-#Comment out url when working locally to resolve base urls correctly
-url: http://yuanyong.org
+title: Sébastien Saunier
 
-# Owner/author information
-owner:
-  name:           Yong Yuan
-  avatar:         YongYuan.png
-#  bio:
-  email:          yongyuanstu@gmail.com
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:
-  facebook:
-  github: willard-yuan
-  linkedin:
-  instagram:
-  lastfm:
-  tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus: Yong Yuan
-
-# Analytics and webmaster tools stuff goes here
-google_verify: "JW0gdx05xcJSQe6saaq67u_U1vgdfuh8OxrjS-fEuyQ"
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About Me
-    url: /
-#  - title: Projects
-#    url: /projects/
-#  - title: Publications
-#    url: /publications/
-  - title: Blog
-    url: /blog/
-  - title: Resume
-    url: /resume/	
-  - title: Project
-    url: /projects/
-  - title: Wiki
-    url: /wiki/
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Chongqing
-future: true
-pygments: true
-#markdown: kramdown
+# Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe: true
+lsi: false
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+# Keybase
+include:
+  - .well-known
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-
+# White-listed plugins
+gems:
+  - jekyll-sitemap
