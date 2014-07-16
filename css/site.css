@@ -46,7 +46,7 @@ body {
   background-color: lightyellow;
   line-height: 32px;
   color: #666;
-  border-bottom: 1px solid #eee ;
+  border-bottom: 5px solid #ed5252 ;;
 }
 
 h1, h2, h3 {
