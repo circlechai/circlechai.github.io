@@ -7,7 +7,7 @@ category: blog
 <section class="inner">
   <h1>Blog</h1>
   <p>My thoughts on Technology, Software Engineering, Lean Startup, Tools and Freelancing.</p>
-  <ul class="posts">
+<!--  <ul class="posts">
     {% for post in site.posts %}
       <li>
         <span class="date">{{ post.date | date_to_string }}</span>
@@ -18,6 +18,11 @@ category: blog
         <br />
         <span class="description">{{ post.description }}</span>
       </li>
+    {% endfor %}
+  </ul>-->
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </section>
