@@ -428,13 +428,16 @@ article h1 {
 }
 
 .post pre, .post code, .post pre code {
-  font-size: 13px;
-  font-family: Courier, monospace;
+  font-size:.8rem;
+  /*font-size: 13px;原主题定义的代码字体大小*/
+  /*font-family: Courier, monospace;原主题定义的代码字体*/
+  font-family: Consolas,"Liberation Mono",Courier,monospace;
   background-color: rgb(248, 248, 248);
 }
 
 .post code {
-  font-size: 18px;
+  /*font-size: 18px;原主题定义的代码字体大小*/
+  font-size:.8rem;
 }
 
 .post ul, .post ol {
