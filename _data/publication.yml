@@ -6,7 +6,7 @@
   year: 2014, Best Paper Honorable Mention Award
   pages:
   publisher: in ICIMCS
- # abstract: >
+#  abstract: >
 #    Approximate nearest neighbor (ANN) search is becoming
 #    an increasingly important technique in large-scale problems.
 #    Recently many approaches have been developed due to fast
