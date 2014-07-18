@@ -63,8 +63,12 @@ h1 small { font-weight: 400; font-size: 50%; color: #999; }
 
 h2 { font-weight: bold; }
 
-p { margin: 1em 0;
-    text-align: justify;
+p { 
+    padding:0.2em 0;
+    /*对齐*/
+    word-break:break-all;
+    text-align:justify;
+    -webkit-text-align-last:justify;/*chrome 20+*/
     }
 
 table {
