@@ -33,7 +33,9 @@
 body {
   color: #222;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  /*自定义的字体*/
+  font-family:'Galdeano','Hiragino Sans GB','Microsoft YaHei',Trebuchet,'Trebuchet MS',Tahoma,'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
   text-rendering: optimizeLegibility;
 }
 
