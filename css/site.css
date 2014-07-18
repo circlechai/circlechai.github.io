@@ -56,7 +56,9 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Asap', sans-serif;
+  /*font-family: 'Asap', sans-serif;*/
+  /*自定义标题字体*/
+  font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif
   font-weight: 400;
   color: #101010;
   margin-top: 2em;
