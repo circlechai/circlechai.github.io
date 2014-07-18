@@ -1,4 +1,4 @@
-- author: Yong Yuan
+- author: Yong Yuan，Xiaoqiang Lu, Xuelong Li
   image: weroom.png
   url: https://www.weroom.com/en
   title: Learning Hash Functions Using Sparse Reconstruction
@@ -7,11 +7,19 @@
   pages:
   publisher: ACM
   abstract: >
-    I worked 9 weeks with the Weroom team in early 2014. My mission was to write
-    a technical roadmap, implement an agile & continuous deployment process and ramp
-    up the design team. I worked closely with two of the designers who managed to
-    become front-end developer (from Illustrator to Sublime + Terminal), which is IMHO the best
-    way to grow your technical team.
+    Approximate nearest neighbor (ANN) search is becoming
+    an increasingly important technique in large-scale problems.
+    Recently many approaches have been developed due to fast
+    query and low storage cost. Although most of them have realized
+    the importance of the data structure, they neglected
+    the sparse relationship of the data. To build a balance between
+    the adjusted covariance matrix and the minimum reconstruction
+    error of data points, this paper proposes a novel
+    method based on sparse reconstruction to learn more compact
+    binary codes under l21-norm constraint. Experiments
+    demonstrate that the proposed method, named as sparse
+    reconstruction hashing, outperforms several other state-ofthe-
+    art methods when tested on a few benchmark datasets.
 
 
 
