@@ -39,6 +39,8 @@ body {
   text-rendering: optimizeLegibility;
   /*自定义背景颜色*/
   background-color:#f5f5f5;
+  /*自定义段落与段落之间的间距*/
+  margin-bottom: 5px;
 }
 
 /*.top-bar {
