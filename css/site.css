@@ -432,7 +432,8 @@ article h1 {
   /*font-size: 13px;原主题定义的代码字体大小*/
   /*font-family: Courier, monospace;原主题定义的代码字体*/
   font-family: Consolas,"Liberation Mono",Courier,monospace;
-  background-color: rgb(248, 248, 248);
+  background-color:#f8f8f8;
+  /*background-color: rgb(248, 248, 248);原主题定义的代码背景色*/
 }
 
 .post code {
