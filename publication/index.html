@@ -18,7 +18,7 @@ category: publication
 <!--    <a href="{{ publication.url }}">
       <img class="inline pull-right" src="/images/publication/{{ publication.image }}"
            alt="{{ publication.name }} Screenshot" width="280">
-    </a>-->
+    </a>
     <h2><a href="{{ publication.url }}">{{ publication.name }}</a></h2>
     <h3>{{ publication.oneliner }}</h3>
     <p><strong>My role:</strong> {{ publication.role }}</p>
@@ -26,6 +26,14 @@ category: publication
     <p>
       <strong>Technologies:</strong> {{ publication.technologies | join: ", " }}
     </p>
+  </section>-->
+  <section>
+<!--    <a href="{{ publication.url }}">
+      <img class="inline pull-right" src="/images/publication/{{ publication.image }}"
+           alt="{{ publication.name }} Screenshot" width="280">
+    </a>-->
+    <p>{{ publication.name }}. {{ publication.title }}. {{ publication.publisher }}, {{ publication.year }} </p>
+    <p>{{ publication.abstract}}</p>
   </section>
   <div class="spacer"></div>
 {% endfor %}
