@@ -44,6 +44,31 @@ layout: default
       Fear not, I hate spam too.
     </form>
   </p>
+
+    <div id="more-articles">
+      {% if has_res %}
+        <p>Since you scrolled this far, you might as well take a look at some other things I wrote !</p>
+        <ul>
+          {{ res }}
+        </ul>
+        <p>
+          ... or <a href="/blog">some other article</a> from my blog.
+          Oh and I also take <a href="/photos">pictures</a>!
+        </p>
+      {% else %}
+      <p>
+        If you liked this, feel free to <a href="/blog">browse other articles on my blog</a>.
+      </p>
+      {% endif %}
+    </div>
+    <a href="https://twitter.com/marcgg" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @marcgg</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="marcgg" data-size="large">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  </div>
+  
 </section>
 
 <div class="separator"></div>
