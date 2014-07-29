@@ -101,7 +101,12 @@ table td, table th {
 
 
 /* Common */
-a, a:active {
+
+a {
+  color: #e0115f;
+}
+
+a:active {
   text-decoration: none;
   color: #3073b3;
 }
