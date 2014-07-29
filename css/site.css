@@ -366,6 +366,21 @@ ul.posts li {
   padding:.2em 0;
 }
 
+/*添加博客首页为谢一挥的模板样式——开始*/
+.listing-item, .listing-seperator {
+    list-style-type: none;
+}
+.listing-item a {
+    padding: 0.2em 1em;
+}
+.listing-item time {
+    color: #999999;
+}
+.listing-seperator {
+    font-weight: bold;
+}
+/*添加博客首页为谢一挥的模板样式——结束*/
+
 ul.posts .date {
   margin-right: 0.3em;
   display: inline-block;
