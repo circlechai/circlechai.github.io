@@ -104,10 +104,10 @@ table td, table th {
 
 a {
   color: #e0115f;
+    text-decoration: none;
 }
 
 a:active {
-  text-decoration: none;
   color: #3073b3;
 }
 
