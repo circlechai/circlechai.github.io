@@ -1,12 +1,10 @@
 ---
 layout: post
-title: GitHub Repositories for Own Purposes
+title: GitHub上一些有用的Repositories
 tags: [Tech]
 ---
 
 再给自己挖个坑，发觉截止目前为止，自己给自己挖了好多的坑。不纠结了，先挖。
-
-To do list
 
 **impress.js**
 
@@ -82,3 +80,23 @@ Caffe: Convolutional Architecture for Fast Feature Extraction。自备梯子：[
 [headroom.js](https://github.com/WickyNilliams/headroom.js)
 >Give your pages some headroom. Hide your header until you need it.
 有很多结合bbotstrap的站点，在滚动条向下滚动的时候，上面的导航条会隐藏起来，用的就是这货，要想实现那种效果，当然用这个了。
+
+**gitbook**
+>This is an attempt to make a comprehensive, easy to follow Git learning resource to be hosted on the main Git website.
+
+[梯子](https://github.com/schacon/gitbook)传送门。
+
+**developer.github.com**
+>This is a GitHub API resource built with nanoc.
+
+[梯子](https://github.com/github/developer.github.com)传送门。
+
+**railstutorial-china.github.io**
+>《Ruby on Rails Tutorial》中文版,涵盖 Rails 4.
+
+[梯子](https://github.com/railstutorial-china/railstutorial-china.github.io)传送门。
+
+**gitbook**
+>Utility for generating books and exercises using GitHub/Git and Markdown.
+
+[梯子](https://github.com/GitbookIO/gitbook)传送门。
