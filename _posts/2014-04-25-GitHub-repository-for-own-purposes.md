@@ -21,12 +21,19 @@ To do list
 做个一个小练习，还要多练习。
 
 ---
-
 **Best-App**
 
 >经常会有朋友想知道有哪些 Apps 或 服务 是值得付费来使用的，或者有哪些可以改善生活的优质产品， 于是创建了这个 List 项目，旨在让推荐变得有章可循
 
 自备梯子：[这里](https://github.com/hzlzh/Best-App)
+
+**swift**
+
+FlappySwift:An implementation of Flappy Bird in Swift for iOS 8.自备梯子：[这里](https://github.com/fullstackio/FlappySwift)
+
+**OpenCV**
+
+Mastering OpenCV with Practical Computer Vision Projects:Code for the book "Mastering OpenCV with Practical Computer Vision Projects" by Packt Publishing 2012.自备梯子：[这里](https://github.com/MasteringOpenCV/code)
 
 **科研**
 
@@ -46,6 +53,8 @@ Web UI for easy exploration of data and prediction results.
 
 [exemplarsvm](https://github.com/quantombone/exemplarsvm)
 >Welcome to the Exemplar-SVM library, a large-scale object recognition library developed at Carnegie Mellon University while obtaining my PhD in Robotics. -- Tomasz Malisiewicz
+
+Caffe: Convolutional Architecture for Fast Feature Extraction。自备梯子：[这里](https://github.com/willard-yuan/caffe)
 
 
 
