@@ -1,11 +1,15 @@
 - author: Yong Yuan, Xiaoqiang Lu, and Xuelong Li
   image: weroom.png
+<<<<<<< HEAD
   url: [Slide](/publication/slides/Learning Hash Functions Using Sparse Reconstruction---YongYuan.pdf)
+=======
+  url: https://www.weroom.com/en
+>>>>>>> parent of 4bd622e... update publication
   title: Learning Hash Functions Using Sparse Reconstruction
-  role: first anthor
+  role: Technical Coach / Product Owner
   year: 2014, Best Paper Honorable Mention Award
   pages:
-  publisher: in ICIMCS14
+  publisher: in ICIMCS
 #  abstract: >
 #    Approximate nearest neighbor (ANN) search is becoming
 #    an increasingly important technique in large-scale problems.
