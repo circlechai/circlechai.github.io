@@ -1,8 +1,3 @@
-Jekyll website serving [Sébastien Saunier](http://sebastien.saunier.me) homepage, blog and portfolio. He is a [startup executive technical coach](http://sebastien.saunier.me) based in Paris, France
+这是我的个人主页，该主题是[Sébastien Saunier](https://raw.github.com/ssaunier/ssaunier.github.io/)在[marcgg](http://marcgg.com/)的基础上改写的。我fork过来后，也稍微做了些修改，如果你觉得不错，可以直接从我这里fork，fork过去后还请你把涉及到我的一些信息、文章、图片删掉。
 
---
-
-Page de [Sébastien Saunier](http://sebastien.saunier.me), réalisée avec Jekyll pour
-héberger son blog et son portfolio. Il est [coach technique pour startup](http://sebastien.saunier.me/fr) à Paris.
-
-[![Sébastien Saunier](https://raw.github.com/ssaunier/ssaunier.github.io/master/images/sebastien_saunier.jpg)](http://sebastien.saunier.me)
+[主题预览](http://yuanyong.org/)
