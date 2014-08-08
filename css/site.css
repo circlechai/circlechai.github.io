@@ -350,7 +350,7 @@ footer p {
   text-align: center;
 }
 
-footer .linkings {
+footer .inner .linkings {
   max-width: 680px;
   margin-left: auto;
   margin-right: auto;
@@ -358,6 +358,7 @@ footer .linkings {
   width: 100%;
   display: block;
   border: none;
+  line-height:60%
 }
 
 footer .links {
