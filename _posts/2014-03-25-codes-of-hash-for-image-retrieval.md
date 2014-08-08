@@ -35,6 +35,7 @@ tags: [Image Retrieval]
 18. **IHM**: Inductive Hashing on Manifolds (2013 CVPR) [ProjectPage](http://cs.adelaide.edu.au/~chhshen/projects/inductive_hashing/) ~~read~~
 19. **BSPH**: Semi-supervised Nonlinear Hashing Using Bootstrap Sequential Projection Learning (2012 TKDE)[ProjectPage](http://appsrv.cse.cuhk.edu.hk/~jkzhu/bnsplh/) ~~read~~
 20. **FastHash**: Fast Supervised Hashing with Decision Trees for High-Dimensional Data (2014 CVPR) [\[Code\]](https://bitbucket.org/chhshen/fasthash) ~~read~~
+21. **Spherical Hashing**: Spherical Hashing (2012 CVPR)~~read~~
 
 无代码：
 
@@ -91,6 +92,7 @@ tags: [Image Retrieval]
 ###他人讲解papers的一些好博文
 - [Locality Sensitive Hashing(LSH)之随机投影法](http://www.strongczq.com/2012/04/locality-sensitive-hashinglsh%E4%B9%8B%E9%9A%8F%E6%9C%BA%E6%8A%95%E5%BD%B1%E6%B3%95.html)
 - [Semi-Supervised Hashing](http://www.dreamingo.com:9999/blog/Semi-Supervised_Hashing)
+- [Spherical Hashing](http://blog.csdn.net/zwwkity/article/details/8565485?reload)
 
 ---
 
