@@ -24,7 +24,10 @@ willard@willard-PC~/Pictures/101_ObjectCategories $ tree -L 2
     ├── image_0001.jpg
     ├── image_0002.jpg
     └── ......
+
 ```sh
+
+
 
 要把上面的图像放在一起,并加上所属的类别名,即w为下面这种形式:
 
@@ -41,7 +44,10 @@ willard@willard-PC~/Pictures/101_ObjectCategories $ tree -L 1
 ├── binocular_image_0002.jpg
 └── ......
 ```
+
+
 脚本如下:
+
 
 ```python
 import os

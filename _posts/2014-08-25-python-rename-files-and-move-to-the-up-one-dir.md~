@@ -41,6 +41,7 @@ willard@willard-PC~/Pictures/101_ObjectCategories $ tree -L 1
 ├── binocular_image_0002.jpg
 └── ......
 ```
+脚本如下:
 
 ```python
 import os
