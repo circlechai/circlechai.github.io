@@ -13,13 +13,13 @@ category: blog
 willard@willard-PC~/Pictures/101_ObjectCategories $ tree -L 2
 .
 ├── anchor
-│   ├── image_0001.jpg
-│   ├── image_0002.jpg
-│   └── image_0003.jpg
+│   ├── image_0001.jpg
+│   ├── image_0002.jpg
+│   └── image_0003.jpg
 ├── ant
-│   ├── image_0001.jpg
-│   ├── image_0002.jpg
-│   └── image_0003.jpg
+│   ├── image_0001.jpg
+│   ├── image_0002.jpg
+│   └── image_0003.jpg
 └── ......
     ├── image_0001.jpg
     ├── image_0002.jpg
