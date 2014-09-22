@@ -43,14 +43,6 @@ body {
   margin-bottom: 5px;
 }
 
-/**** MathJax ****/
-code.has-jax {
-    font: inherit; 
-    font-size: 100%; 
-    background: inherit; 
-    border: inherit;
-}
-
 /*.top-bar {
   height: 4px;
   background-color: #255b96;
