@@ -7,9 +7,11 @@ layout: default
 <script type="text/javascript" src="{{site.url}}/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{site.url}}/js/jquery.side.menu.js"></script>
 <script>
-$(function() {
-    $('#main').sideMenu();
-});
+$(function () {
+            $('#main').sideMenu({
+                hs: ['h1', 'h3']
+            });
+        });
 </script>
 
 {% if page.photo %}
