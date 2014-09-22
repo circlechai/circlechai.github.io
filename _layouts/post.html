@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="../css/side-menu.css" />
+
+<script src="../js/jquery.min.js"></script>
+<script src="jquery.side.menu.js"></script>
+<script>
+$(function() {
+    $('#main').sideMenu();
+});
+</script>
+
 {% if page.photo %}
 <div class="post-photo" style="background-image: url('/images/posts/{{ page.photo }}')">
 
