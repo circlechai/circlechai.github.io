@@ -14,7 +14,7 @@ layout: default
 <script type="text/javascript" src="{{site.url}}/js/jquery.side.menu.js"></script>
 <script>
 $(function () {
-            $('#post').sideMenu({
+            $('#main').sideMenu({
                 hs: ['h1', 'h3']
             });
         });
@@ -40,9 +40,11 @@ $(function () {
       google translate it</a>.
   </div>
   {% endif %}
-
+  
+  <div id="main" class="span9">
   <div class="post">
     {{ content }}
+  </div>
   </div>
 </article>
 
