@@ -19,7 +19,7 @@
 	left: -5px;
 	width: 10px;
 	height: 10px;
-	background: transparent url(side-menu.png) 0 -199px no-repeat;
+	background: transparent url(../images/side-menu.png) 0 -199px no-repeat;
 	overflow: hidden;
 	cursor: pointer;
 }
