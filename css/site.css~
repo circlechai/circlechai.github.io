@@ -33,7 +33,6 @@
 body {
   color: #222;
   text-align: center;
-  /*font-family: Helvetica, Arial, sans-serif;*/
   /*自定义的字体*/
   font-family:"proxima-nova",'Galdeano','Hiragino Sans GB','Microsoft YaHei',Trebuchet,'Trebuchet MS',Tahoma,'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
   text-rendering: optimizeLegibility;
@@ -56,20 +55,35 @@ body {
 }
 
 h1, h2, h3 {
-  /*font-family: 'Asap', sans-serif;*/
-  /*自定义标题字体*/
-  font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif
-  font-weight: 400;
-  color: #101010;
-  margin-top: 2em;
-  margin-bottom: 0.3em;
-  line-height: 1.2em;
+	/*定义标题,字标题字体大小*/
+  	font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  	/*定义标题,字标题字体颜色*/
+  	color:#3d4657;
 }
 
-h1 { font-size: 1.7em; line-height: 1.7em; font-weight: 700; }
-h1 small { font-weight: 400; font-size: 50%; color: #999; }
+h1 { 
+	font-size: 1.7em; 
+	line-height: 1.7em; 
+	font-weight: 700; 
+	margin-top: 0;
+}
 
-h2 { font-weight: bold; }
+h1 small { 
+	font-weight: 400; 
+	font-size: 50%; 
+	color: #999; 
+}
+
+h2 { 
+	font-size:1.5em;
+	margin:.83em 0;
+	margin-top: 0;
+}
+
+h3 {
+	font-size:1.17em;
+	margin:1em 0;
+}
 
 /*添加段与段之间的分割线样式*/
 hr {
@@ -315,13 +329,6 @@ nav a.selected:hover {
 .links li {
   padding: 0.5em 0;
 }
-
-h1 {
-  margin-top: 0;
-}
-
-
-h2 { margin-top: 0; }
 
 .about-me .speak-french {
   line-height: 3.8em;
