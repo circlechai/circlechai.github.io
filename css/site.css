@@ -463,10 +463,6 @@ article h1 {
   color: #111;
   width: 100%;
   border-width: 0px 0px 0px 3px;
-  -moz-border-top-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-bottom-colors: none;
 }
 
 .post pre, .post code, .post pre code {
