@@ -56,14 +56,10 @@ body {
 }
 
 h1, h2, h3 {
-  /*font-family: 'Asap', sans-serif;*/
-  /*自定义标题字体*/
-  font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif
-  font-weight: 400;
-  color: #101010;
-  margin-top: 2em;
-  margin-bottom: 0.3em;
-  line-height: 1.2em;
+	/*定义标题,字标题字体大小*/
+  font-family: "Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  /*定义标题,字标题字体颜色*/
+  color:#3d4657;
 }
 
 h1 { font-size: 1.7em; line-height: 1.7em; font-weight: 700; }
