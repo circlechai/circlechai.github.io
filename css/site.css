@@ -453,13 +453,20 @@ article h1 {
 /* standard */
 .post pre {
   border-width: 1px 0px;
-  border-style: solid none;
-  border-color: rgb(210, 210, 210);
+  border-style: none none none solid;
+  border-width: 0px 0px 0px 3px;
+  border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #DADADA;
+  line-height: 1.5;
   white-space: pre-wrap;
   padding: .3em 0;
   margin: 1.3em 0;
   color: #111;
   width: 100%;
+  border-width: 0px 0px 0px 3px;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-bottom-colors: none;
 }
 
 .post pre, .post code, .post pre code {
@@ -467,7 +474,7 @@ article h1 {
   /*font-size: 13px;原主题定义的代码字体大小*/
   /*font-family: Courier, monospace;原主题定义的代码字体*/
   font-family: Consolas,"Liberation Mono",Courier,monospace;
-  background-color:#f8f8f8;
+  background-color:##F9F9F7;
   /*background-color: rgb(248, 248, 248);原主题定义的代码背景色*/
 }
 
