@@ -45,9 +45,9 @@ weblog
 `pip`是python的包管理工具，有建议说Python的包都用pip进行管理，`virtualenv`是 Python 多版本管理的利器，不同版本的开发调试全靠它，可以通过下面命令安装pip和virtualenv。
 
 ```sh
-# 安装pip
+## 安装pip
 sudo apt-get install python-pip
-# 安装virtualenv
+## 安装virtualenv
 sudo apt-get install virtualenv
 ```
 
@@ -96,7 +96,7 @@ Storing debug log for failure in /home/willard/.pip/pip.log
 ```
 暂时还不知道是什么原因，先到这里，睡觉了。
 
-###2014/04/08 更新
+##2014/04/08 更新
 
 没想到昨天在SimpleCV Rep开了个issue很快得到了回答，本小子将问题反馈过去，@sksavant给出的回答是：
 
