@@ -239,7 +239,7 @@ header .logo a, header .logo a:hover {
 }
 
 .post > .highlight {
-  max-width: 100% !important;  /*代码块区域宽度*/
+  /*max-width: 100% !important;  代码块区域宽度*/
   word-wrap: break-word;
 }
 
