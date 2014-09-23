@@ -126,8 +126,8 @@ a.discreet {
   /*font-family: "proxima-nova", Helvetica, Arial, sans-serif;*/
   /*自定义文章字体*/
   font-family: "proxima-nova", 'Galdeano','Hiragino Sans GB','Microsoft YaHei',Trebuchet,'Trebuchet MS',Tahoma,'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
-  font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2,"Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","wenquanyi micro hei",sans-serif,"Apple Color Emoji";
-  /*line-height: 170%;*/
+  /*font-family: ff-tisa-web-pro-1,ff-tisa-web-pro-2,"Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","wenquanyi micro hei",sans-serif,"Apple Color Emoji";
+  line-height: 170%;*/
 }
 
 article {
