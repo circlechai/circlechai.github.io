@@ -20,7 +20,7 @@ body {
   color: #222;
   text-align: center;
   /*自定义的字体*/
-  font-family:Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
+  font-family:"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
   text-rendering: optimizeLegibility;
   /*自定义背景颜色*/
   background-color:#ffffff;
