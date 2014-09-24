@@ -29,25 +29,25 @@ category: publication
       <strong>Technologies:</strong> {{ publication.technologies | join: ", " }}
     </p>
   </section>-->
-  <section>
+  <div>
 <!--    <a href="{{ publication.url }}">
       <img class="inline pull-right" src="/images/publication/{{ publication.image }}"
            alt="{{ publication.name }} Screenshot" width="280">
     </a>-->
     <p>{{ publication.author }}. {{ publication.title }}. {{ publication.publisher }}, {{ publication.year }}.<a href="{{ publication.url }}">[Slide]</strong></a></p>
     <p>{{ publication.abstract}}</p>
-  </section>
+  </div>
 <!--  <div class="spacer"></div>-->
 {% endfor %}
 
 <h1>Book</h1>
 
-<!-- <section> -->
+<div>
     <a href="{{ publication.url }}">
       <img class="inline pull-left" src="/images/pcv.png"
            alt="Programming Computer Vision with Python" width="280">
     </a>
 <p>Zhuwen Tao, <strong>Yong Yuan</strong>. <a href="http://www.ituring.com.cn/book/1349">Python计算机视觉编程.</a></p>
 <p><a href="http://yongyuan.name/pcvwithpython/">Project Page</p>
-<!--</section>-->
+</div>
 <!--<div class="spacer"></div>-->
