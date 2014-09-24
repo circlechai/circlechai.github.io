@@ -20,7 +20,7 @@ body {
   color: #222;
   text-align: center;
   /*自定义的字体*/
-  /*font-family:"proxima-nova",'Galdeano','Hiragino Sans GB','Microsoft YaHei',Trebuchet,'Trebuchet MS',Tahoma,'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;*/
+  font-family:"proxima-nova",'Galdeano','Hiragino Sans GB','Microsoft YaHei',Trebuchet,'Trebuchet MS',Tahoma,'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
   text-rendering: optimizeLegibility;
   /*自定义背景颜色*/
   background-color:#ffffff;
@@ -80,7 +80,7 @@ hr {
 
 p { 
     padding:0.5em 0;
-    /*对齐*/
+    /*使左右两边对齐*/
     word-break:break-all;
     text-align:justify;
     -webkit-text-align-last:justify;/*chrome 20+*/
@@ -124,12 +124,13 @@ a.discreet {
 
 .fancy, section, article {
   /*font-family: "proxima-nova", Helvetica, Arial, sans-serif;*/
-  /*自定义文章字体*/
+  /*定义article字体*/
   font-family: "proxima-nova", 'Galdeano','Hiragino Sans GB','Microsoft YaHei',Trebuchet,'Trebuchet MS',Tahoma,'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
   line-height: 170%;
 }
 
 article {
+  /*定义article字号和字体颜色*/
   font-size: 18px;
   color:#424b50;
 }
