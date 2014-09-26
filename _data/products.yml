@@ -8,7 +8,7 @@
     efficient hashing algorithm to map the semantic similar images to the similar codes.
     There are two main advantages using hashing method for image retrieval, i.e. storage and
     computation efficience. To let more researchers focus on design hashing algorithm, I have 
-    built a hashing baseline, hoping to do some help for some researcher.
+    built a hashing baseline, hoping this project can do some help for some researchers.
   technologies:
     - Matlab
     - Hashing
