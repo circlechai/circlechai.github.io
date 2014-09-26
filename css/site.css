@@ -129,6 +129,10 @@ a.discreet {
   line-height: 170%;
 }
 
+.fancy {
+  margin-bottom: 25px;
+}
+
 article {
   /*定义article字号和字体颜色*/
   font-size: 18px;
@@ -180,7 +184,7 @@ article {
 .right { text-align: right; }
 .spacer {
   border-top: 1px solid #E6E6E6;
-  margin: 3em auto;
+  margin: 2em auto;
 }
 .without-border {
   border: none;
