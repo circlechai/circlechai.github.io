@@ -1,6 +1,6 @@
 - name: HABIR
   image: HABIRH_with_shadow.png
-  url: https://yongyuan.name/habir
+  url: http://yongyuan.name/habir
   oneliner: Hashing Baseline for Image Retrieval
   role: Project Owner
   description: >
@@ -17,7 +17,7 @@
 - name: PCVwithPython
   image: PCVH_with_shadow.png
   url: http://yongyuan.name/pcvwithpython
-  oneliner: Programming Computer Vision with Python(Trainslate to Chinese)
+  oneliner: Programming Computer Vision with Python(Translate to Chinese)
   role: Main trainslator
   description: >
     I'm a big fun of Python. I think Python is one of the most elegant programming language
