@@ -13,7 +13,7 @@ category: project
 </p>
 
 {% for product in site.data.products %}
-  <div>
+  <section>
     <a href="{{ product.url }}">
       <img class="inline pull-right" src="/images/project/{{ product.image }}"
            alt="{{ product.name }} Screenshot" width="280">
@@ -25,6 +25,6 @@ category: project
     <p>
       <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
     </p>
-  </div>
+  </section>
   <div class="spacer"></div>
 {% endfor %}
