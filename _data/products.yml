@@ -21,11 +21,11 @@
   role: Main trainslator
   description: >
     I'm a big fun of Python. I think Python is one of the most elegant programming language
-    I have known. Python is a great power tool which can be used everywhere, such as write scripts,
-    web development(Django) and science computation. So when I first meet the book <Programming 
+    I have known. It's a great power tool which can be used everywhere, such as write scripts,
+    using Django for web developmentand do science computation. When I first meet the book <Programming 
     Computer Vision with Python>, I was attracted by the book. The content in this book is 
-    quite rich and diverse and I can't bear to share the book to more people. So I dived into
-    the book and translate it into Chinese. Morover, I organized the code.
+    quite rich and diverse and I can't bear to share the book to more people. So in my free time, I dived into
+    the book and translate it into Chinese. Morover, I organized and supply the codes.
   technologies:
     - Python
     - Jekyll
