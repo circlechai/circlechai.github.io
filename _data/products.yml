@@ -1,5 +1,5 @@
 - name: HABIR
-  image: weroom.png
+  image: HABIRH_with_shadow.png
   url: https://yongyuan.name/habir
   oneliner: Hashing Baseline for Image Retrieval
   role: Project Owner
@@ -15,7 +15,7 @@
     - Image Retrieval
 
 - name: PCVwithPython
-  image: lewagon-kitt.png
+  image: PCVH_with_shadow.png
   url: http://yongyuan.name/pcvwithpython
   oneliner: Programming Computer Vision with Python(Trainslate to Chinese)
   role: Main trainslator
