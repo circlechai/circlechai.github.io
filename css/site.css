@@ -682,3 +682,12 @@ img {
     margin-top: 1em;
   }
 }
+
+.subinner{
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+  display: block;
+}

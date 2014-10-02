@@ -1,0 +1,36 @@
+---
+layout: default
+title: Yong Yuan - Blog
+category: blog
+---
+
+<section class="inner">
+<!-- <h1>Blog Posts</h1>-->
+<!--  <p>My thoughts on Technology, Software Engineering, Lean Startup, Tools and Freelancing.</p>-->
+<!--  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="date">{{ post.date | date_to_string }}</span>
+        <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+        {% if post.french %}
+          <img src="/images/french.png" alt="French post" class="french-flag" title="This post is in french" />
+        {% endif %}
+        <br />
+        <span class="description">{{ post.description }}</span>
+      </li>
+    {% endfor %}
+  </ul>-->
+  <ul class="posts">
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+  </ul>
+</section>
