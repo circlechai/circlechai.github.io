@@ -691,24 +691,16 @@ img {
 /* button   
 ---------------------------------------------- */  
 .button {  
-    display: inline-block;  
-    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */  
-    *display: inline;  
-    vertical-align: baseline;  
-    margin: 0 2px;  
-    outline: none;  
-    cursor: pointer;  
-    text-align: center;  
-    text-decoration: none;  
-    font: 14px/100% Arial, Helvetica, sans-serif;  
-    padding: .5em 2em .55em;  
-    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
-    -webkit-border-radius: .5em;   
-    -moz-border-radius: .5em;  
-    border-radius: .5em;  
-    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
-    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
-    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  border: none;
+  border-radius: 4px;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+  -webkit-font-smoothing: subpixel-antialiased;
 }  
 .button:hover {  
     text-decoration: none;  
