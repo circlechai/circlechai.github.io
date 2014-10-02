@@ -708,6 +708,10 @@ img {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+.row{
+	margin-bottom: 4em;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1abc9c;
