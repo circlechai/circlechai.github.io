@@ -36,11 +36,6 @@ category: blog
 		<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
 		<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	  </li>
-          {% if post.description != "" %}
-          <p class="description">
-            {{ post.description }}
-          </p>
-          {% endif %}
     {% endfor %}
   </ul>
 </section>
