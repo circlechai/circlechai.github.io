@@ -12,7 +12,7 @@ categories: [Jekyll]
 [Jeklly](http://jekyllrb.com/)官网本身采用的就是Jekyll,设计大方美观，不过我不怎么喜欢它页面的配置。灰黑配色虽然很适合在编程时可以护眼，但作为一个网页配色，灰黑我会很慎用它们作为主配色。GitHub上fork该repository的人很多啊。
 ![](http://ww3.sinaimg.cn/large/ad9597a3gw1edt9j58knhj21070iydjq.jpg)
 对应中文项目模板为[jekyllcn](http://jekyllcn.com/)
-![2014-04-16 15_40_35-Jekyllcn]({{ site.url }}/public/images/posts/2014-04-16 15_40_35-Jekyllcn.png)
+![2014-04-16 15_40_35-Jekyllcn]({{ site.url }}/images/posts/2014-04-16 15_40_35-Jekyllcn.png)
 
 ---
 ###公司模板
@@ -20,7 +20,7 @@ categories: [Jekyll]
 ![](http://ww2.sinaimg.cn/large/ad9597a3gw1edt69ng30oj213m0lraep.jpg)
 
 2. [libgit2](http://libgit2.github.com/)
-![2014-04-15 08_50_20-libgit2]({{ site.url }}/public/images/posts/2014-04-15 08_50_20-libgit2.png)
+![2014-04-15 08_50_20-libgit2]({{ site.url }}/images/posts/2014-04-15 08_50_20-libgit2.png)
 
 ---
 ###学术主页模板
