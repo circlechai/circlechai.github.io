@@ -754,3 +754,10 @@ fieldset[disabled] .btn-primary.active {
   border-color: #1abc9c;
   }  
 
+#tag_cloud{margin-bottom: 1em;}
+#tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
+.listing-item,.listing-seperator{list-style-type:none;}
+.listing-item a{padding:.2em 1em;}
+.listing-item time{color:#999999;}
+.listing-seperator{font-weight:bold;}
+
