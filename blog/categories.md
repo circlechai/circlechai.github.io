@@ -4,6 +4,12 @@ title: Categories - Blog
 category: blog
 ---
 
+<div class="row">
+<div>
+<a class="button btn-primary" href="/blog/index.html">By year</a>
+<a class="button btn-primary" href="/blog/categories.html">By categories</a>
+</div>
+</div>
 <div id='tag_cloud'>
 {% for cat in site.categories %}
 <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
