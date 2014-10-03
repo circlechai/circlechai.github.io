@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubuntu14.04安裝postgresql
-description: ""
+description: "在Ubuntu14.04下要用到postgresql,所以查了一下安装的资料:How To Install and Use PostgreSQL on Ubuntu 14.04."
 categories: [Linux]
 ---
 
