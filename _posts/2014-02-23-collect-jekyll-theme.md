@@ -52,11 +52,11 @@ categories: [Jekyll]
 11. [corincole.com](https://github.com/corincole/corincole.com),演示[主页](http://www.corincole.com)
 12. [lazywei.github.io]，演示[主页](http://lazywei.github.io)，简约风。
 13. hexo-theme-raytaylorism [Demo](http://raytaylorlin.com/)。
-![2014-04-16 15_31_54-Ray-Lin's world]({{ site.url }}/public/images/posts/2014-04-16 15_31_54-Ray-Lin's world.png)
+![2014-04-16 15_31_54-Ray-Lin's world]({{ site.url }}/images/posts/2014-04-16 15_31_54-Ray-Lin's world.png)
 14. [xguox.github.com](http://xguox.github.io/)。 
 15. [webfrogs](http://webfrogs.me/),跟[yihui.name](http://yihui.name/cn/)的一样。
 16. [macduff.github.com](http://macduff.github.io/),原来为自己配置MathJax是找到的一个博客，容器居中应该更好看。
-![2014-04-16 15_48_13-Liquid-Inertia]({{ site.url }}/public/images/posts/2014-04-16 15_48_13-Liquid-Inertia.png)
+![2014-04-16 15_48_13-Liquid-Inertia]({{ site.url }}/images/posts/2014-04-16 15_48_13-Liquid-Inertia.png)
 17. [Poised-flw-blog](http://www.poised-flw.com),[Github](https://github.com/luofei2011/Poised-flw-blog)。
 
 ---
