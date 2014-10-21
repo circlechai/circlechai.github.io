@@ -80,8 +80,10 @@ admin.site.register(Book, MarkdownModelAdmin)
 4. 模板的tags
 
 ```html
+{% raw %}
 <textarea name="test" id="new"></textarea>
 {% markdown_editor "#new" %}
 {% markdown_media %}
+{% endraw %}
 ```
 结合1中的定制表单,可以实现前台评论markdown语法支持.先写到这里,等做到前台评论功能实现后,再对评论表单markdown语法支持坐个总结.
