@@ -41,3 +41,10 @@ a {
     vertical-align: -9px;
     margin-left: 12px;
 }
+
+.right {
+    text-align: right;
+}
+.pull-right {
+    float: right;
+}
