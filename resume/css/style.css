@@ -2,10 +2,15 @@
 
 
 .top-bar {
-  background-color: lightyellow;
-  line-height: 32px;
-  color: #666;
-  border-bottom: 5px solid #ed5252 ;;
+    background-color: #FFFFE0;
+    line-height: 32px;
+    color: #666;
+    border-bottom: 5px solid #ED5252;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
