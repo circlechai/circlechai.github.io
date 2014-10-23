@@ -55,9 +55,9 @@
           <small>
             <em>
               {% if page.url == '/cn/index.html' %}
-                <a href="/cn">Scholar, developer, and designer</a>
+                <a href="/cn">developer & designer</a>
               {% else %}
-                <a href="/">Scholar, developer, and designer</a>
+                <a href="/">developer & designer</a>
               {% endif %}
             </em>
           </small>
