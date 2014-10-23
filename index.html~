@@ -1,0 +1,41 @@
+---
+layout: default
+category: about
+title: Yong Yuan's homepage
+description: I am Yong Yuan. Willard is my English Name, which means great bravery. I completed my bachelor's degree in Faculty of Science at Xi'Dian University of science and technology of the electronics information on July.1 2013.
+---
+
+<section class="about-me inner" itemscope itemtype="http://data-vocabulary.org/Person">
+  <div class="pull-right speak-french"></div>
+
+  <h1>
+    <div class="book-me">
+      <a class="btn btn-lg" href="/contact">Contact me</a>
+    </div>
+    <span class="hello">
+      Welcome
+      <small>to <a href="http://yongyuan.name/">Yong Yuan</a>'s homepage, <em>do you speak <a href="/cn/" rel="alternate" hreflang="cn">Chinese</a> ?</em></small>
+    </span>
+  </h1>
+
+  <p>
+    I am <a href="/"><span itemprop="name">Yong Yuan</span></a>. Willard is my English Name, which means great bravery. I completed my bachelor's degree in Faculty of Science at <a href="http://www.xidian.edu.cn/">Xidian University</a> of science and technology of the electronics information on July.1 2013. Now I am a 2nd year postgraduate student in Center for OPTical IMagery Analysis and Learning (OPTIMAL), <a href="http://english.ucas.ac.cn/Pages/default.aspx"><strong>University of Chinese Academy of Sciences</strong></a>. My advisor is Prof. Xuelong Li, Fellow IEEE. <!--<strong itemprop="role">interim CTO</strong>.--><!--  in <span itemprop="location">Paris</span>. -->
+  </p>
+
+  <p>
+    My research interest: <a href="http://en.wikipedia.org/wiki/Multimedia_Information_Retrieval"><strong>Multimedia Information Retrieval</strong></a>,
+    <a href="http://en.wikipedia.org/wiki/Computer_vision"><strong>Computer Vision</strong></a>,
+    <a href="http://en.wikipedia.org/wiki/Django"><strong>Web Development Based on Django</strong></a>,
+    and <a href="http://www.scientificpython.net/"><strong>Scientific Computing with Python</strong></a>.
+  </p>  
+  
+  <p>
+    I'm a big fan of Git, Python, Django, and Linux. In my free time, I dive into writing blog, translating english book about technology, reading books to improve myself. Python is my favorite programming language now.
+  </p>
+
+  <p>
+    Interested? Here's my <a href="YongYuan-Resume.pdf"><strong>resume</strong></a>,
+    and <a href="/contact">contact me</a>.
+  </p>
+
+</section>
