@@ -191,3 +191,31 @@ nav a.selected:hover {
   color: #666;
   border-bottom: 5px solid #ed5252 ;;
 }
+
+
+
+.logo small a {
+  font-weight: 400;
+}
+
+.logo .name {
+  display: inline-block;
+}
+
+.about-me .speak-french {
+  line-height: 3.8em;
+}
+
+@media (max-width: 420px) {
+  .book-me {
+    float: none;
+    text-align: center;
+    margin: 0 0 1em 0;
+  }
+  .about-me h1 {
+    text-align: center;
+  }
+  .hello {
+    display: none;
+  }
+}
