@@ -24,7 +24,6 @@ header {
 .header-container {
   border-bottom: 1px solid #ddd;
   margin-bottom: 1.5em;
-  background-color: #FFF;
 }
 
 .inner, pre code, .post > * {
