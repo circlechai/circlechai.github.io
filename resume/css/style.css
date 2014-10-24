@@ -44,8 +44,8 @@ ul{
 .nav li:first-child img{padding-top:64px}
 .nav a{font-family:'entypo';display:block;color:white;padding:74px 0;font-size:4rem;-webkit-transition:all 275ms cubic-bezier(.68,.17,.62,1.24);-moz-transition:all 275ms cubic-bezier(.68,.17,.62,1.24);-ms-transition:all 275ms cubic-bezier(.68,.17,.62,1.24);-o-transition:all 275ms cubic-bezier(.68,.17,.62,1.24);transition:all 275ms cubic-bezier(.68,.17,.62,1.24)}
 .nav span{font-family:'Montserrat';font-size:1.2rem;text-transform:uppercase;letter-spacing:3px;padding-top:20px;margin-bottom:-20px;display:none;line-height:0}.nav a:hover span,.active span{display:block}.nav a:hover,.active a{background:white!important;color:#16a085!important;padding-top:84px;margin-top:-10px}.active a:hover{cursor:default}.js #nav{position:relative}
-.js #nav.closed{max-height:none}
-#nav-toggle{display:none}*/
+.js #nav.closed{max-height:none}*/
+#nav-toggle{display:none}
 .content{background:#fff;padding:40px}
 .content h2{text-transform:uppercase;padding:0;line-height:1;margin:40px 0}
 	.content h2:first-child{margin-top:0}
