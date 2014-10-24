@@ -1580,7 +1580,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 }
 
 @media screen and (max-width:767px){
-	.logo{
+	/*.logo{
 		display:block;
 		position:absolute;
 		top:-70px;
@@ -1588,7 +1588,7 @@ input:-ms-input-placeholder,textarea:-ms-input-placeholder{
 		width:100%;
 		text-align:center;
 		z-index:-1
-	}
+	}*/
 
 	.container{
 		margin-top:120px
