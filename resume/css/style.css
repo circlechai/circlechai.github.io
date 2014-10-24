@@ -308,7 +308,7 @@ homepage css end
 	display:none
 }
 
-.nav{
+/*.nav{
 	font-size:0;
 	background:black
 }
@@ -365,7 +365,7 @@ homepage css end
 	color:#16a085!important;
 	padding-top:84px;
 	margin-top:-10px
-}
+}*/
 
 .active a:hover{
 	cursor:default
