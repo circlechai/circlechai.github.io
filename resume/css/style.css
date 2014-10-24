@@ -136,6 +136,7 @@ header nav {
 .header-container {
   border-bottom: 1px solid #ddd;
   margin-bottom: 1.5em;
+  height: 89px; /**test*/
 }
 
 @media(max-width: 400px) {
