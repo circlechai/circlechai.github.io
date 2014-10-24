@@ -24,7 +24,7 @@ html{
 
 body{
 	font-family:'Open Sans',Calibri,sans-serif;
-	background-color: #FFF;/*test*/
+	background: #FFF;/*test*/
 	/*background:#333;*/
 	font-size:14px;
 	font-size:1.4rem;
