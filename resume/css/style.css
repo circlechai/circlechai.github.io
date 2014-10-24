@@ -219,3 +219,26 @@ nav a.selected:hover {
     display: none;
   }
 }
+
+
+.post-footer-self-promotion img {
+  float: left;
+  margin-left: -84px;
+  margin-top: 16px;
+}
+.post-footer-self-promotion strong {
+  background-color: lightyellow;
+}
+
+img.inline.pull-right {
+  margin-left: 1em;
+}
+
+img.inline.pull-left {
+  margin-right: 1em;
+  max-width: 30%;
+}
+
+img {
+  max-width: 100%;
+}
