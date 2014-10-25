@@ -213,3 +213,24 @@ header h1.title a:hover {
 .pull-right {
     float: right;
 }
+
+
+.inner, pre code, .post > * {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+header {
+    padding: 1em 0px;
+}
+header {
+    font-family: "Asap",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
