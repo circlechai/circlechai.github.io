@@ -206,3 +206,10 @@ header h1.title a {
 header h1.title a:hover {
   color: #000;
 }
+
+.right {
+    text-align: right;
+}
+.pull-right {
+    float: right;
+}
