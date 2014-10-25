@@ -178,3 +178,9 @@ header .logo a, header .logo a:hover {
 }
 
 .clear { clear: both; }
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
