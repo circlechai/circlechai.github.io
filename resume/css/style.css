@@ -184,3 +184,25 @@ header .logo a, header .logo a:hover {
   margin: 0;
   padding: 0;
 }
+
+
+header {
+  padding: 1em 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+header h1.title a {
+  color: #a00;
+}
+
+header h1.title a:hover {
+  color: #000;
+}
