@@ -123,3 +123,16 @@ nav a.selected:hover {
   vertical-align: -9px;
   margin-left: 12px;
 }
+
+
+/*.top-bar {
+  height: 4px;
+  background-color: #255b96;
+} */
+
+.top-bar {
+  background-color: lightyellow;
+  line-height: 32px;
+  color: #666;
+  border-bottom: 5px solid #ed5252 ;;
+}
