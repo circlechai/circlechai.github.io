@@ -18,7 +18,7 @@
 }
 
 html{
-	font-size:.698rem;
+	font-size:.625rem;
 	height:101%
 }
 
@@ -67,6 +67,9 @@ ul{
 	margin-top:60px
 }
 
+.logo{
+	/*display:none*/
+}
 
 .nav{
 	font-size:0;
