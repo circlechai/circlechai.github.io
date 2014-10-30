@@ -28,3 +28,8 @@ BOW做的是描述子的0阶统计分布，而FV则是扩展了的BOW的高阶�
 
 ![VLAD01]({{ site.url }}/images/posts/VLAD02.png)
 
+参考：
+
+1. [机器学习笔记——Fisher vector coding](http://blog.csdn.net/breeze5428/article/details/32706507)
+2. [Large-scale visual recognition Novel patch aggregation mechanisms](http://people.rennes.inria.fr/Herve.Jegou/courses/2012_cpvr_tutorial/4-new-patch-agggregation.pptx.pdf)
+3. [VLAD](http://blog.csdn.net/breeze5428/article/details/36441179)
