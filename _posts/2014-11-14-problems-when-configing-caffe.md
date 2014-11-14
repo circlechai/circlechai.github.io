@@ -58,7 +58,7 @@ collect2: ld 返回 1make: *** [.build_release/lib/libcaffe.so] 错误`。这个
 ```sh
 sudo apt-get install libboost-all-dev
 ```
-5、安装Caffe并测试。切换到Caffe的下载文件夹，然后执行：
+安装Caffe并测试。切换到Caffe的下载文件夹，然后执行：
 
 ```sh
 $ cp Makefile.config.example Makefile.config
@@ -95,6 +95,7 @@ $ sudo ldconfig -v
 最后，如果没用GPU的话，在`examples/mnist/lenet_solver.prototxt`最后一行修改GPU为CPU。
 
 参考：
+
 1. [caffe官网](http://caffe.berkeleyvision.org/installation.html)
 
 2. [Ubuntu12.04上面用CPU编译使用caffe（不完全安装）](http://blog.csdn.net/zxd675816777/article/details/39649281)
