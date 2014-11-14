@@ -113,7 +113,11 @@ $ sudo ldconfig -v
 
 参考：
 1. [caffe官网](http://caffe.berkeleyvision.org/installation.html)
+
 2. [Ubuntu12.04上面用CPU编译使用caffe（不完全安装）](http://blog.csdn.net/zxd675816777/article/details/39649281)
+
 3. [Caffe + Ubuntu 14.04 + CUDA 6.5 新手安装配置指南](http://blog.csdn.net/u013476464/article/details/38071075)
+
 4. [Caffe配置过程](http://www.haogongju.net/art/2433691)
+
 5. [DIY Deep Learning for Vision: a Hands-On Tutorial with Caffe](https://docs.google.com/presentation/d/1UeKXVgRvvxg9OUdh_UiC5G71UMscNPlvArsWER41PsU/preview?sle=true&slide=id.g355666fe0_0104)
