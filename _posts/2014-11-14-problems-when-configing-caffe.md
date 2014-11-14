@@ -4,9 +4,10 @@ title: caffe配置中的一些问题
 categories: [machine learning]
 ---
 
-一直想将DL用于自己目前研究的image retrieval中，实际上，我在之前的博文[Deep Learning for Content-Based Image Retrieval](http://yongyuan.name/blog/deep-learning-for-cbir.html)关于用DL做检索的paper也做了些调研。可以看出，虽然DL现在很火，但是将其用于image retrieval似乎还并不多。这连天正好忙里偷闲，在Ubuntu12.04中把caffe捣鼓了一番，成功，只能说配置起来真的很egg pain。下面是自己在配置过程中出现的一些问题，配置的时候自己特地做了笔记，便于后面查阅。
+一直想将DL用于自己目前研究的image retrieval中，实际上，本小子在之前的博文[Deep Learning for Content-Based Image Retrieval](http://yongyuan.name/blog/deep-learning-for-cbir.html)关于用DL做检索的paper也做了些调研。可以看出，虽然DL现在很火，但是将其用于image retrieval似乎还并不多。这连天正好忙里偷闲，在Ubuntu12.04中把caffe捣鼓了一番，成功，只能说配置起来真的很egg pain。下面是自己在配置过程中出现的一些问题，配置的时候自己特地做了笔记，便于后面查阅。
 
 1、 CUDA自带了显卡驱动，安装后图形界面分辨率变模糊，NVIDIA图形配置是出现:
+
 ```text
 You do not appear to be using the NVIDIA X driver. Please edit your X configuration file (just run nvidia-xconfig as root), and restart the X server
 ```
@@ -23,6 +24,7 @@ You do not appear to be using the NVIDIA X driver. Please edit your X configurat
 [答案链接](http://askubuntu.com/questions/286654/nvidia-driver-installed-successfully-but-not-activated)按照上面安装后，重启，完成激活。
 
 2、`/include/caffe/common.hpp:5:27: 致命错误： gflags/gflags.h：没有那个文件或目录编译中断。make: *** [.build_release/src/caffe/common.o] 错误`。可以看出跟gflags有关，大概推测是gflags没装，于是按照教程把下面的都安装了：
+
 ```sh
 # 安装glog/gflags/lmdb
 # glog
@@ -62,6 +64,7 @@ sudo apt-get install libboost-all-dev
 $ cp Makefile.config.example Makefile.config
 ```
 修改新生成的Makefile.config文件，修改“BLAS := mkl”，这个非常重要。
+
 ```sh
 $ make clean
 $ make all
@@ -75,6 +78,7 @@ $ sudo touch cuda.conf
 $ sudo vim cuda.conf
 ```
 在新建的`cuda.conf`中添加：
+
 ```text
 /usr/local/cuda/lib64
 /lib
