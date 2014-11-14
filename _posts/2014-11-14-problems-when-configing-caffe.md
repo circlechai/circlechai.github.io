@@ -8,7 +8,7 @@ categories: [machine learning]
 
 下面是自己在配置过程中出现的一些问题，配置的时候自己特地做了笔记，便于后面查阅。
 
-1. CUDA自带了显卡驱动，安装后图形界面分辨率变模糊，NVIDIA图形配置是出现:
+- CUDA自带了显卡驱动，安装后图形界面分辨率变模糊，NVIDIA图形配置是出现:
 
 ```text
 You do not appear to be using the NVIDIA X driver. Please edit your X configuration file (just run nvidia-xconfig as root), and restart the X server
@@ -25,8 +25,7 @@ You do not appear to be using the NVIDIA X driver. Please edit your X configurat
 
 [答案链接](http://askubuntu.com/questions/286654/nvidia-driver-installed-successfully-but-not-activated)按照上面安装后，重启，完成激活。
 
-2. /include/caffe/common.hpp:5:27: 致命错误： gflags/gflags.h：没有那个文件或目录
-编译中断。make: *** [.build_release/src/caffe/common.o] 错误。可以看出跟gflags有关，大概推测是gflags没装，于是按照教程把下面的都安装了：
+-  `/include/caffe/common.hpp:5:27: 致命错误： gflags/gflags.h：没有那个文件或目录编译中断。make: *** [.build_release/src/caffe/common.o] 错误`。可以看出跟gflags有关，大概推测是gflags没装，于是按照教程把下面的都安装了：
 
 ```sh
 # 安装glog/gflags/lmdb
@@ -48,7 +47,7 @@ git clone git://gitorious.org/mdb/mdb.git
 cd mdb/libraries/liblmdb
 make && make install 
 ```
-3. 如果用make all编译caffe时出现mkl错误：./include/caffe/util/mkl_alternate.hpp:6:17: 致命错误： mkl.h：没有那个文件或目录
+- 如果用make all编译caffe时出现mkl错误：./include/caffe/util/mkl_alternate.hpp:6:17: 致命错误： mkl.h：没有那个文件或目录
 编译中断。
 
 主要是因为MKL与CUDA的环境设置没设置好。另外安装MKL时最好选择默认路径：
@@ -57,13 +56,13 @@ make && make install
 /opt/intel/lib/intel64
 /opt/intel/mkl/lib/intel64
 ```
-4.出现：/usr/bin/ld: cannot find -lboost_system
-collect2: ld 返回 1make: *** [.build_release/lib/libcaffe.so] 错误。这个需要安装libboost-dev,运行下面命令即可完成按照：
+4.出现：`/usr/bin/ld: cannot find -lboost_system
+collect2: ld 返回 1make: *** [.build_release/lib/libcaffe.so] 错误`。这个需要安装libboost-dev,运行下面命令即可完成按照：
 
 ```sh
 sudo apt-get install libboost-all-dev
 ```
-4、安装Caffe并测试。切换到Caffe的下载文件夹，然后执行：
+- 安装Caffe并测试。切换到Caffe的下载文件夹，然后执行：
 
 ```sh
 $ cp Makefile.config.example Makefile.config
@@ -76,7 +75,7 @@ $ make all
 $ make test
 $ make runtest
 ```
-6. 新建cuda.conf，并编辑之：
+新建cuda.conf，并编辑之：
 
 ```sh
 $ sudo touch cuda.conf
@@ -94,7 +93,7 @@ $ sudo vim cuda.conf
 $ sudo ldconfig -v 
 ```
 
-7. When ./create_mnist.sh, fault: convert_mnist_data.bin: not found
+- When ./create_mnist.sh, fault: convert_mnist_data.bin: not found
 
 这个问题，在caffe github上有人提出了issue,
 [链接传送门](https://github.com/BVLC/caffe/issues/1251),按照答案说的，对于caffe，必须得在caffe的根目录，所以根目录运行脚本吧。
