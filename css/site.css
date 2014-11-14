@@ -450,7 +450,7 @@ article h1 {
 
 /* 文章代码格式 */
 .post pre {
-	margin:1.64em 0;
+	margin:1em 0;
 	padding:7px;
 	border:0;
 	border-left:3px solid #dadada;
