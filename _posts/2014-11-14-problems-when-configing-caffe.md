@@ -13,7 +13,6 @@ categories: [machine learning]
 ```text
 You do not appear to be using the NVIDIA X driver. Please edit your X configuration file (just run nvidia-xconfig as root), and restart the X server
 ```
-
 主要是由于没激活安装的显卡:
 
 >I was also facing the same problem. Now that you asked it, I wanted to fix >in my computer as well. So here is how you do it.
@@ -27,9 +26,7 @@ You do not appear to be using the NVIDIA X driver. Please edit your X configurat
 [答案链接](http://askubuntu.com/questions/286654/nvidia-driver-installed-successfully-but-not-activated)按照上面安装后，重启，完成激活。
 
 2. /include/caffe/common.hpp:5:27: 致命错误： gflags/gflags.h：没有那个文件或目录
-编译中断。make: *** [.build_release/src/caffe/common.o] 错误 1
-
-可以看出跟gflags有关，大概推测是gflags没装，于是按照教程把下面的都安装了：
+编译中断。make: *** [.build_release/src/caffe/common.o] 错误。可以看出跟gflags有关，大概推测是gflags没装，于是按照教程把下面的都安装了：
 
 ```sh
 # 安装glog/gflags/lmdb
@@ -51,7 +48,6 @@ git clone git://gitorious.org/mdb/mdb.git
 cd mdb/libraries/liblmdb
 make && make install 
 ```
-
 3. 如果用make all编译caffe时出现mkl错误：./include/caffe/util/mkl_alternate.hpp:6:17: 致命错误： mkl.h：没有那个文件或目录
 编译中断。
 
@@ -61,23 +57,17 @@ make && make install
 /opt/intel/lib/intel64
 /opt/intel/mkl/lib/intel64
 ```
-
-
 4.出现：/usr/bin/ld: cannot find -lboost_system
-collect2: ld 返回 1make: *** [.build_release/lib/libcaffe.so] 错误
-
- 这个需要安装libboost-dev,运行下面命令即可完成按照：
+collect2: ld 返回 1make: *** [.build_release/lib/libcaffe.so] 错误。这个需要安装libboost-dev,运行下面命令即可完成按照：
 
 ```sh
 sudo apt-get install libboost-all-dev
 ```
-
 4、安装Caffe并测试。切换到Caffe的下载文件夹，然后执行：
 
 ```sh
 $ cp Makefile.config.example Makefile.config
 ```
-
 修改新生成的Makefile.config文件，修改“BLAS := mkl”，这个非常重要。
 
 ```sh
