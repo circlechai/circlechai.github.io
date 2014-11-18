@@ -98,7 +98,7 @@ $ sudo ldconfig -v
 
 ##caffe python接口安装
 
-1. 如果没有pip的话，先安装pip。进入caffe python目录，安装所需要的依赖关系：
+1、 如果没有pip的话，先安装pip。进入caffe python目录，安装所需要的依赖关系：
 
 ```sh
 sudo pip install -r requirement.txt 
@@ -107,14 +107,14 @@ sudo pip install -r requirement.txt
 
 注意：Anaconda安装的库并没有在python的库目录中。
 
-2. 错误：libm.so.6: GLIBC_2.15 not found, required by libopencv。。。将libm.so.6和libm.so重命名为别的即可,比如：
+2、 错误：libm.so.6: GLIBC_2.15 not found, required by libopencv。。。将libm.so.6和libm.so重命名为别的即可,比如：
 
 ```sh
 sudo mv libm.so.6 libm.so.6.backup
 sudo mv libm.so libm.so.backup
 ```
 
-3. 你需要安装ipython和ipython qtconsole。安装完后可以用下面的脚本测试:
+3、 你需要安装ipython和ipython qtconsole。安装完后可以用下面的脚本测试:
 
 ```python
 import sys
