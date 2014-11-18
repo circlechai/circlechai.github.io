@@ -94,6 +94,49 @@ $ sudo ldconfig -v
 
 最后，如果没用GPU的话，在`examples/mnist/lenet_solver.prototxt`最后一行修改GPU为CPU。
 
+---
+
+##caffe python接口安装
+
+1. 如果没有pip的话，先安装pip。进入caffe python目录，安装所需要的依赖关系：
+
+```sh
+sudo pip install -r requirement.txt 
+```
+用requirements.txt失败，用 Anaconda安装`sudo pip install -r /path/to/caffe/python/requirements.txt`在执行上述命令时， 会报错导致不能完全安装所有需要的包。 可以按照官方建议安装anaconda包。 在anaconda官网下载.sh文件，执行，最后添加bin目录到环境变量即可(在安装的时候会询问你时是否添加)。
+
+注意：Anaconda安装的库并没有在python的库目录中。
+
+2. 错误：libm.so.6: GLIBC_2.15 not found, required by libopencv。。。将libm.so.6和libm.so重命名为别的即可,比如：
+
+```sh
+sudo mv libm.so.6 libm.so.6.backup
+sudo mv libm.so libm.so.backup
+```
+
+3. 你需要安装ipython和ipython qtconsole。安装完后可以用下面的脚本测试:
+
+```python
+import sys
+sys.path.append('/home/yong/anaconda/lib/python2.7/site-packages')
+sys.path.append('/usr/lib/python2.7/dist-packages')
+
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+# Make sure that caffe is on the python path:
+caffe_root = '../'  # this file is expected to be in {caffe_root}/examples
+
+sys.path.insert(0, caffe_root + 'python')
+
+import caffe
+
+plt.rcParams['figure.figsize'] = (10, 10)
+plt.rcParams['image.interpolation'] = 'nearest'
+plt.rcParams['image.cmap'] = 'gray'
+```
+
 参考：
 
 1. [caffe官网](http://caffe.berkeleyvision.org/installation.html)
