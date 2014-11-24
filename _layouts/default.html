@@ -40,6 +40,7 @@
 
   <div class="header-container">
     <header class="inner">
+      {% if page.url == '/index.html' %}
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
@@ -50,13 +51,25 @@
         <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>-->
         <a href="https://github.com/willard-yuan">Github</a>
       </nav>
+      {% elsif page.url == '/cn/index.html' %}
+      <nav>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
+        <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
+		<a href="/resume/">Resume</a>
+        <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>
+        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+        <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>-->
+        <a href="https://github.com/willard-yuan">Github</a>
+      </nav>
+      {% endif %}
       <div class="pull-right right logo">
         <div class="name">
           <a href="/">Yong Yuan</a><br />
           <small>
             <em>
               {% if page.url == '/cn/index.html' %}
-                <a href="/cn">developer & designer</a>
+                <a href="/cn">开发者 & 设计者</a>
               {% else %}
                 <a href="/">developer & designer</a>
               {% endif %}
