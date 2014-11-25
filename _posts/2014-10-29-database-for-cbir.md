@@ -10,6 +10,8 @@ categories: [image retrieval]
 
 > 这个Project page里，有5个图像库，分别是Indoor、Caltech256、Corel (5000)、ImageCLEF (Med)、Oxford Buildings，在主页上不仅可以下到图像库，而且作者还提供了已经提取好的特征。
 
+2. 医学图像数据库[ImageCLEFmed](http://ir.ohsu.edu/image/)
+
 
 
 
