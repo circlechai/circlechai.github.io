@@ -29,7 +29,7 @@ categories: [Image Retrieval]
 12. **KSH**: Supervised Hashing with Kernels [\[Paper\]](http://www.ee.columbia.edu/~wliu/CVPR12_ksh.pdf) [\[Code\]](http://www.ee.columbia.edu/~wliu/ksh_code.zip) ~~read~~
 13. **MDSH**: Multidimensional Spectral Hashing [\[Paper\]](http://people.csail.mit.edu/torralba/publications/msh_eccv12.pdf) [\[Code\]](http://www.cs.huji.ac.il/~yweiss/export2.tar)
 14. **MH**: Manhattan hashing for large-scale image retrieval [\[Paper\]](http://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf) [\[Code\]](http://cs.nju.edu.cn/lwj/code/MH.rar) ~~read~~
-15. **MinH**: Minimal Loss Hashing for Compact Binary Codes [\[Paper\]](http://www.cs.toronto.edu/~norouzi/research/papers/min_loss_hash.pdf) [\[Code\]](http://www.cs.toronto.edu/~norouzi/research/mlh/) [\[Slide\]]( http://www.cs.toronto.edu/~norouzi/research/slides/mlh-icml.ppt) 
+15. **MLH**: Minimal Loss Hashing for Compact Binary Codes [\[Paper\]](http://www.cs.toronto.edu/~norouzi/research/papers/min_loss_hash.pdf) [\[Code\]](http://www.cs.toronto.edu/~norouzi/research/mlh/) [\[Slide\]]( http://www.cs.toronto.edu/~norouzi/research/slides/mlh-icml.ppt) （KMH中有提到MLH是一种半监督的哈希）
 16. **OPQ**: Optimized Product Quantization for Approximate Nearest Neighbor Search [\[Paper\]](http://131.107.65.14/en-us/um/people/kahe/publications/cvpr13opq.pdf) [\[Code\]]( http://131.107.65.14/en-us/um/people/kahe/cvpr13/matlab_OPQ_release_v1.1.rar)
 17. **SH**: Spectral Hashing [\[Paper\]](http://people.csail.mit.edu/torralba/publications/spectralhashing.pdf) [\[Code\]]( http://www.cs.huji.ac.il/~yweiss/SpectralHashing/sh.zip) ~~read~~
 18. **IHM**: Inductive Hashing on Manifolds (2013 CVPR) [ProjectPage](http://cs.adelaide.edu.au/~chhshen/projects/inductive_hashing/) ~~read~~
