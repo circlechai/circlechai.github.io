@@ -12,7 +12,7 @@ D-lib不需要依赖别的库。在VS2008中配置，只需要把d-lib-xx.xx添�
  
 ##运行自带的例子。 
 1. D-lib自带了很多很好且非常实用的例子，要运行D-lib的例子，安装cmake，然后安装：
-```shell
+```sh
 cd dlib/test
 mkdir build
 cd build
@@ -37,7 +37,7 @@ D-lib自带了人脸检测器，如果要检测别的物体，先要训练出对
 1.	对训练数据集图像进行标注
 D-lib自带了图像标注工作，对应在tools目录下，非常的好用。在使用该工具前，先用cmake对原代码进行编译：
 
-```shell
+```sh
 cd dclib/tools/imglab
 mkdir build
 cd build
@@ -49,7 +49,7 @@ cmake --build . --config Release
 
 - 生成XML文件，在该文件中会将训练图片文件名包含在里面
 
-```shell
+```sh
 Win: imglab -c mydataset.xml C:\Users\willard\Desktop\images
 
 Linux: ./imglab -c mydataset.xml /tmp/images
@@ -57,7 +57,7 @@ Linux: ./imglab -c mydataset.xml /tmp/images
 
 - 标注图像
 
-```shell
+```sh
 Win: imglab C:\Users\willard\Desktop\images\mydataset.xml
 Linux: ./imglab mydataset.xml
 ```
@@ -69,7 +69,7 @@ imglab mydataset.xml
 进行验证。
 
 2.	完成标注后，我们可以用例子中的train_object_detector.exe训练检测器：
-```shell
+```sh
 train_object_detector.exe –tv C:\Users\willard\Desktop\images\mydataset.xml
 ```
 迭代收敛后，可以看到检测器在训练集本身的presicion、recall、average presicion是多少。同时在imglab.exe目录下，会生成object_detector.svm检测模板。
@@ -86,7 +86,7 @@ D-lib中的例子train_object_dectector用debug编译方式编译后，然后去
 
 2.	使用opencv载入图片
 D-lib支持Opencv，所以可以将D-lib和OpenCV结合起来使用。D-lib对OpenCV的支持是2.1以后的版本的，所以如果使用的是2.1以后的版本的话，不需要对D-lib下OpenCV所在的文件夹下的文件进行修改了。如果使用的是2.1（比如我现在使用的是OpenCV2.1），需要把文件夹下各个文件中包含的OpenCV头文件注释掉，即：
-```shell
+```sh
 //Dlib dafault
 //#include <opencv2/core/core.hpp>
 //#include <opencv2/core/types_c.h>
