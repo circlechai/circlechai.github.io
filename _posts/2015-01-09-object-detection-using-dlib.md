@@ -5,12 +5,15 @@ categories: [machine learning]
 ---
 
 ##D-lib安装
+
 D-lib库代码下载地址：https://github.com/davisking/dlib
 
 ##配置D-lib
+
 D-lib不需要依赖别的库。在VS2008中配置，只需要把d-lib-xx.xx添加到包含文件中：
  
-##运行自带的例子。 
+##运行自带的例子
+
 1. D-lib自带了很多很好且非常实用的例子，要运行D-lib的例子，安装cmake，然后安装：
 ```sh
 cd dlib/test
@@ -29,12 +32,14 @@ cmake ..
 cmake --build . --config Release
 在build目录下，找到Reasese目录，进入所在目录，可以看到生成的exe可执行文件。
 
-##物体检测
-###使用自带的可执行文件检测物体
+---
+
+##物体检测:使用自带的可执行文件检测物体
 
 D-lib自带了人脸检测器，如果要检测别的物体，先要训练出对应的检测器。
 
 1.	对训练数据集图像进行标注
+
 D-lib自带了图像标注工作，对应在tools目录下，非常的好用。在使用该工具前，先用cmake对原代码进行编译：
 
 ```sh
