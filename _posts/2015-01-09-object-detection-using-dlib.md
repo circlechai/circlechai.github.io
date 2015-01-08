@@ -15,6 +15,7 @@ D-lib不需要依赖别的库。在VS2008中配置，只需要把d-lib-xx.xx添�
 ##运行自带的例子
 
 1. D-lib自带了很多很好且非常实用的例子，要运行D-lib的例子，安装cmake，然后安装：
+2. 
 ```sh
 cd dlib/test
 mkdir build
@@ -23,6 +24,7 @@ cmake ..
 cmake --build . --config Release
 ./dtest --runall
 ```
+
 进行单元测试。
 2. 编译D-lib自带的例子
 cd examples
@@ -74,13 +76,16 @@ imglab mydataset.xml
 进行验证。
 
 2.	完成标注后，我们可以用例子中的train_object_detector.exe训练检测器：
+3.	
 ```sh
 train_object_detector.exe –tv C:\Users\willard\Desktop\images\mydataset.xml
 ```
+
 迭代收敛后，可以看到检测器在训练集本身的presicion、recall、average presicion是多少。同时在imglab.exe目录下，会生成object_detector.svm检测模板。
 
 模板训练好后，同样可以使用train_object_detector.exe对图片物体进行检测了：
-```shell
+
+```sh
 train_object_detector.exe （路径+）图片
 ```
 
@@ -91,6 +96,7 @@ D-lib中的例子train_object_dectector用debug编译方式编译后，然后去
 
 2.	使用opencv载入图片
 D-lib支持Opencv，所以可以将D-lib和OpenCV结合起来使用。D-lib对OpenCV的支持是2.1以后的版本的，所以如果使用的是2.1以后的版本的话，不需要对D-lib下OpenCV所在的文件夹下的文件进行修改了。如果使用的是2.1（比如我现在使用的是OpenCV2.1），需要把文件夹下各个文件中包含的OpenCV头文件注释掉，即：
+
 ```sh
 //Dlib dafault
 //#include <opencv2/core/core.hpp>
@@ -102,5 +108,6 @@ D-lib支持Opencv，所以可以将D-lib和OpenCV结合起来使用。D-lib对Op
 #include<highgui.h>
 #include<cxcore.h>
 ```
+
 修改完后，在载入图片的时候，便不再需要依赖D-lib的libjpeg载入图片功能了，这样在每次建立新项目的时候不再需要将libjpeg里面的文件全部加入到所建的项目里面。只需将all文件夹下的source.cpp添加到项目里去即可。
 
