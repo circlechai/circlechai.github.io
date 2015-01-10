@@ -83,18 +83,18 @@ Linux: ./imglab mydataset.xml
 ![imlab-example]({{ site.url }}/images/posts/imlab-example.jpg)
 
 一旦标注完成，点击菜单保存即可。你还可以通过下面的命令：
-imglab mydataset.xml
-进行验证。
 
-###完成标注后，我们可以用例子中的train_object_detector.exe训练检测器：
-3.	
+```sh
+imglab mydataset.xml
+```
+
+进行验证。完成标注后，我们可以用例子中的train_object_detector.exe训练检测器：
+
 ```sh
 train_object_detector.exe –tv C:\Users\willard\Desktop\images\mydataset.xml
 ```
 
-迭代收敛后，可以看到检测器在训练集本身的presicion、recall、average presicion是多少。同时在imglab.exe目录下，会生成object_detector.svm检测模板。
-
-模板训练好后，同样可以使用train_object_detector.exe对图片物体进行检测了：
+迭代收敛后，可以看到检测器在训练集本身的presicion、recall、average presicion是多少。同时在imglab.exe目录下，会生成object_detector.svm检测模板。模板训练好后，同样可以使用train_object_detector.exe对图片物体进行检测了：
 
 ```sh
 train_object_detector.exe （路径+）图片
