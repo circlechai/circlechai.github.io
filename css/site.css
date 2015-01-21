@@ -529,7 +529,7 @@ figure .two-third {
 
 /* Quotes设置引用文字时的格式 */
 blockquote {
-  margin: 1em 0 1em -1em;
+  margin: 1em 0 1em 0em;
   color: #666;
   border-left: 0.4em solid #3073b3;
   padding-left: 0.6em;
