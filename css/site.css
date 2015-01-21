@@ -289,7 +289,7 @@ nav a {
   /*font-weight: normal;*/
   font-weight: thick;
   border-bottom: 3px solid transparent;
-  font-size: 105%;
+  font-size: 100%;
 }
 
 nav a:last-child {
