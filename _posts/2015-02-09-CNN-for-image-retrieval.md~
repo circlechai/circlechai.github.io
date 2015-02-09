@@ -1,0 +1,14 @@
+---
+layout: post
+title: CNN for image retrieval（just begining）
+categories: [image retrieval]
+---
+
+![random]({{ site.url }}/images/posts/2015-02-09/random.png)
+![river]({{ site.url }}/images/posts/2015-02-09/river.png)
+![lion]({{ site.url }}/images/posts/2015-02-09/lion.png)
+![tiger]({{ site.url }}/images/posts/2015-02-09/tiger.png)
+
+安装scipy时出现：`numpy.distutils.system_info.NotFoundError: no lapack/blas resources found`，[具体解决方法](http://stackoverflow.com/questions/7496547/does-python-scipy-need-blas)按stackoverflow上得来。先通过`sudo apt-get install gfortran libopenblas-dev liblapack-dev`安装依赖库，然后直接pip安装scipy即可。
+
+
