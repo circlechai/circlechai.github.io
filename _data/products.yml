@@ -1,5 +1,5 @@
 - name: PicSearch
-  image: CNN-Image-Retrieval.png
+  image: CNN-Image-Retrieval_with_shadow.png
   url: http://search.yongyuan.name
   oneliner: CNN for CBIR
   role: Project Owner
