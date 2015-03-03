@@ -1,3 +1,19 @@
+- name: PicSearch
+  image: CNN-Image-Retrieval.png
+  url: http://search.yongyuan.name
+  oneliner: CNN for CBIR
+  role: Project Owner
+  description: >
+    After researching CBIR one year, I determined to develop a image retrieval engine demo just 
+    for interest. The convolutional neural networks in the comuter vision community develop so
+    fast in recent  years and show great performance with various tasks. So in my spare time I
+    dive to read papers of CNN and program. The dataset of PicSearch engine is Caltech256, which 
+    contains 29780 images, and until now it supports query in the dataset only.
+  technologies:
+    - CNN
+    - Python
+    - Image Retrieval
+
 - name: HABIR
   image: HABIRH_with_shadow.png
   url: http://yongyuan.name/habir
