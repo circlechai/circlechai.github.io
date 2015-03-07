@@ -253,7 +253,7 @@ header .logo a, header .logo a:hover {
 }
 
 @media (max-width: 700px) {
-  .inner, pre code, .post > * {
+  .inner, pre code, footer, .post > * {
     margin-left: 18px !important;
     margin-right: 18px !important;
     width: auto !important;
@@ -354,7 +354,7 @@ footer .linkings {
   width: 100%;
   display: block;
   border: none;
-  line-height:100%
+  line-height:140%
 }
 
 footer .links {
