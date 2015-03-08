@@ -12,11 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
-  
-
-  
-
-  
 </head>
 <body>
   <div class="top-bar">
@@ -26,13 +21,13 @@
     <header class="inner">
       
       <nav>
-        <a class="" href="/">About</a>
-        <a class=" selected " href="/project/">Project</a>
+        <a class="{% if 'about' %} selected {% endif %}" href="/">About</a>
+        <a class=" {% if 'project' %} selected {% endif %} " href="/project/">Project</a>
         <!--<a class="" href="/resume/">Resume</a>-->
-		    <a href="/resume/">Resume</a>
-        <a class="" href="/publication/">Publication</a>
-        <a class="" href="/blog/">Blog</a>
-		<a class="" href="/books/">Book</a>
+		<a class=" {% if 'resume' %} selected {% endif %} " href="/resume/">Resume</a>
+        <a class=" {% if 'publication' %} selected {% endif %} " href="/publication/">Publication</a>
+        <a class=" {% if 'blog' %} selected {% endif %} " href="/blog/">Blog</a>
+		<a class=" {% if 'books' %} selected {% endif %} " href="/books/">Book</a>
         <!--<a class=" contact" href="/contact/">Contact</a>-->
         <a href="https://github.com/willard-yuan">Github</a>
       </nav>
