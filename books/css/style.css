@@ -1,0 +1,16 @@
+body {
+  color: #222;
+  text-align: center;
+  /*自定义的字体
+  font-family:Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;*/
+  font-family:"Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial;
+  text-rendering: optimizeLegibility;
+  /*自定义背景颜色*/
+  background-color:#ffffff;
+  margin-bottom: 5px;  /*自定义段落与段落之间的间距*/
+  line-height: 170%; /*自定义body对象行与行的间距*/
+  font-size: 100%;
+}
+html {
+    font-size: 100%;
+}
