@@ -32,8 +32,10 @@ ul{margin:0;padding:0;list-style:none}
 	.js #nav{clip:rect(0 0 0 0);max-height:0;position:absolute;display:block;overflow:hidden}
 	#nav.opened{max-height:9999px}
 	#nav-toggle{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:block;width:44px;height:40px;text-indent:-9999px;overflow:hidden;background:black url("../img/hamburger.gif") no-repeat 50% 50%}#nav,#nav *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-	#nav.opened,#nav.closed{width:100%;display:inline-block}.projects li{width:47.5%}.projects li:nth-child(3n){margin-right:5%}.projects li:nth-child(2n){margin-right:0}.work-grid li{width:50%}.ratings h5{width:40%}.rating{width:55%}.s-project h2,.project-nav{display:inline-block;vertical-align:top;width:100%;margin-bottom:15px}
-.ro-timeline:before{display:none}.ro-timeline>li .ro-time{width:100%;position:relative;padding-bottom:15px}
+	#nav.opened,#nav.closed{width:100%;display:inline-block}.projects li{width:47.5%}.projects li:nth-child(3n){margin-right:5%}.projects li:nth-child(2n){margin-right:0}.work-grid li{width:50%}.ratings h5{width:40%}.rating{width:55%}
+	.s-project h2,.project-nav{display:inline-block;vertical-align:top;width:100%;margin-bottom:15px}
+.ro-timeline:before{display:none}
+.ro-timeline>li .ro-time{width:100%;position:relative;padding-bottom:15px}
 .ro-timeline>li .ro-time span{font-size:2rem;font-weight:400;text-align:left}
 .ro-timeline>li .ro-label{margin:0 0 40px 0}
 .ro-timeline>li .ro-label h3,.ro-timeline>li .ro-label span{display:inline-block;width:100%;vertical-align:top}
