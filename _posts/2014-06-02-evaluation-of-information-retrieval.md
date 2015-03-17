@@ -17,3 +17,5 @@ categories: [Image Retrieval]
 ##F1 measure
 
 ![]({{ site.url }}/public/images/posts/F1.png)
+
+![Evaluation 12: mean average precision](https://www.youtube.com/watch?v=LJesxRCBvTk&spfreload=10)
