@@ -107,14 +107,6 @@ header .logo a, header .logo a:hover {
   }
 }
 
-nav a {
-  display: inline-block;
-  margin-right: 1.2em;
-  padding-bottom: 0.2em;
-  font-weight: normal;
-  border-bottom: 3px solid transparent;
-}
-
 nav a:last-child {
   margin-right: 0;
 }
