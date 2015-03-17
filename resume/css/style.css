@@ -159,12 +159,6 @@ header .logo a, header .logo a:hover {
 
 .clear { clear: both; }
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 
 header {
   padding: 1em 0;
@@ -202,15 +196,4 @@ header h1.title a:hover {
     text-align: left;
     width: 100%;
     display: block;
-}
-header {
-    padding: 1em 0px;
-}
-header {
-    font-family: "Asap",Helvetica,Arial,sans-serif;
-    font-weight: bold;
-}
-* {
-    margin: 0px;
-    padding: 0px;
 }
