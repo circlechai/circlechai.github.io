@@ -36,7 +36,7 @@ ul{margin:0;padding:0;list-style:none}
 	.s-project h2,.project-nav{display:inline-block;vertical-align:top;width:100%;margin-bottom:15px}
 .ro-timeline:before{display:none}
 .ro-timeline>li .ro-time{width:100%;position:relative;padding-bottom:15px}
-.ro-timeline>li .ro-time span{font-size:2rem;font-weight:400;text-align:left}
+.ro-timeline>li .ro-time span{font-size:0.625rem;font-weight:400;text-align:left}
 .ro-timeline>li .ro-label{margin:0 0 40px 0}
 .ro-timeline>li .ro-label h3,.ro-timeline>li .ro-label span{display:inline-block;width:100%;vertical-align:top}
 .ro-timeline>li .ro-label:after{right:auto;left:20px;border-right-color:transparent;border-bottom-color:#f6f6f6;top:-20px}
