@@ -41,7 +41,7 @@ mkdir build && cd build
 export CXXFLAGS="-fPIC" && cmake .. && make VERBOSE=1
 make && make install
 # lmdb
-git clone git://gitorious.org/mdb/mdb.git
+git clone https://gitorious.org//mdb/mdb.git
 cd mdb/libraries/liblmdb
 make && make install 
 ```
