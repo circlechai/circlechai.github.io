@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CNN for image retrieval（just begining）
+title: CNN for image retrieval
 categories: [image retrieval]
 ---
 
@@ -13,7 +13,7 @@ categories: [image retrieval]
 ![background1]({{ site.url }}/images/posts/2015-02-09/background1.png)
 其中三个个图片搜索引擎搜索出来的图片前面都是“熊猫”这一类，表现最差的是搜狗，找不到匹配的图片，在识别这一块，搜狗还没推出这一功能，百度识别出来的是“北京犬”，360识别出来的是“抗菌肽”，识别与360，百度的结果稍微好一些，因为“北京犬”在毛色以及在形状上有可能会和“熊猫”相似，识别最好的是谷歌，搜索引擎这一块，谷歌无疑是世界遥遥的领先者。另外百度前一段时间推出的百度识图是个不错的流量入口，通过搜索出来的相似图片与对应的店铺联系起来，从而创造商业价值。
 
-## CNN on Caltech256
+## 卷积神经网络CNN
 
 待续
 
