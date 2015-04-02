@@ -141,6 +141,6 @@ end
 
 上面便是特征抽取的代码，特征抽取完后，我们便可以采用进行检索了。匹配时采用的是余弦距离度量方式，至于后面的检索部分的代码，相比于前面特征抽取的过程，更显灵活，怎么处理可以随自己的喜欢了，所以这里就不再对代码进行列举了。下面是我在**corel1k**外加上Caltech256抽取几类构成1333张图像库做的一个飞机检索结果，时间所限，就不测大的图像库了。
 
-![](![airplane-image-retrieval]({{ site.url }}/images/posts/2015-04-02/airplane-image-retrieval.jpg))
+![airplane-image-retrieval]({{ site.url }}/images/posts/2015-04-02/airplane-image-retrieval.jpg)
 
 最后，整个图像检索的代码已放在github上了，感兴趣的同学可以去**下载**，有github的同学不要吝啬你的star哦，这个代码我会随时完善更新，比如添加计算mAP的代码。
