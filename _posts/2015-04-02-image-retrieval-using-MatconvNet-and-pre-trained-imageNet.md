@@ -143,4 +143,4 @@ end
 
 ![airplane-image-retrieval]({{ site.url }}/images/posts/2015-04-02/airplane-image-retrieval.jpg)
 
-最后，整个图像检索的代码已放在github上了，感兴趣的同学可以去**下载**，有github的同学不要吝啬你的star哦，这个代码我会随时完善更新，比如添加计算mAP的代码。
+最后，整个图像检索的代码已放在github上了，感兴趣的同学可以去[**CNN-for-Image-Retrieval**](https://github.com/willard-yuan/CNN-for-Image-Retrieval)，有github的同学不要吝啬你的star哦，这个代码我会随时完善更新，比如添加计算mAP的代码。
